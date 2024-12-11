@@ -1,5 +1,7 @@
 # Drone Mission and Status Visualizer - Code Functionality
 
+To run: python ./main.py
+
 This application visualizes multiple actively-running drones' real-time mission plans and statuses received from MQTT messages. It consists of four main classes:
 
 - `MainWindow`: Acts as the controller and central hub for the application. Manages multiple drones and their widgets, and handles MQTT communication.
